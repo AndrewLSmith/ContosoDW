@@ -6,7 +6,7 @@
     [AccountDescription]  NVARCHAR (50)  NULL,
     [AccountType]         NVARCHAR (50)  NULL,
     [Operator]            NVARCHAR (50)  NULL,
-    [CustomMembers]       NVARCHAR (900) NULL,
+    [CustomMembers]       NVARCHAR (1000) NULL,
     [ValueType]           NVARCHAR (50)  NULL,
     [CustomMemberOptions] NVARCHAR (200) NULL,
     [ETLLoadID]           INT            NULL,
