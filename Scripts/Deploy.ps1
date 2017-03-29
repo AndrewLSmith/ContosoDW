@@ -11,4 +11,4 @@ $dacService = new-object Microsoft.SqlServer.Dac.DacServices "server=(local)"
 $dacPac = [Microsoft.SqlServer.Dac.DacPackage]::Load("$tcDir\bin\Release\ContosoDW.dacpac")
 
 #--Deploy your database--
-$dacService.deploy($dacPac, "QA", "True") 
+$dacService.deploy($dacPac, "ContosoRetailQA", "True") 
