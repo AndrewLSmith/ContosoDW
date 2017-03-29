@@ -102,4 +102,7 @@
     <Build Include="dbo\Stored Procedures\P_FactStrategyPlan.sql" />
     <Build Include="dbo\Stored Procedures\P_FactSalesQuota.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Deploy.ps1" />
+  </ItemGroup>
 </Project>
